@@ -1,0 +1,121 @@
+/* ==UserStyle==
+@name           www.glowfic.com - 6/9/2022, 3:29:47 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document domain("glowfic.com") {
+    body {
+        font-family: Recia, Helvetica, Verdana, sans-serif;
+    }
+
+    #content {
+        line-height: normal;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .post-container {
+        position: relative;
+        background-color: hsl(42deg 28% 98%)!important;
+        margin: 1.5rem 0;
+        border-radius: 6px;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    }
+
+    .post-content > p {
+        margin: 1rem 0;
+    }
+
+    .post-content > p:last-child {
+        padding-bottom: 1.5rem
+    }
+
+    .post-container blockquote {
+        margin: 0;
+        background-color: transparent!important;
+        border-left: 4px solid rgba(0 0 0 / 0.15);
+        padding: 0 0 0 1rem;
+    }
+
+    .padding-10 {
+        padding: 1.5rem;
+    }
+
+    .post-info-box,
+    .post-icon {
+        width: 130px;
+    }
+
+    .post-info-box {
+        margin-right: 1.25rem;
+        margin-bottom: 0.9rem;
+    }
+
+    .post-icon {
+        background-color: transparent;
+        height: auto;
+    }
+
+    .post-icon .icon {
+        width: 130px;
+        height: 130px;
+        max-width: 130px;
+        max-height: 130px;
+        border-radius: 3px;
+        margin: 0 0 0.5rem;
+    }
+
+    .spacer-alt {
+        display: none;
+    }
+
+    .post-screenname,
+    .post-author,
+    .post-character {
+        background-color: transparent;
+        padding: 0;
+    }
+
+    .post-character {
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .post-author > a,
+    .post-character > a {
+        color: #101010;
+    }
+
+    .post-author {
+        padding-top: 0.5rem;
+    }
+    .post-author > a {
+        opacity: 0.6
+    }
+
+    .post-edit-box {
+        opacity: 0.7;
+        padding: 0;
+    }
+
+    .post-content {
+        font-size: 18px;
+        padding-left: 150px;
+    }
+
+    .post-footer {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        opacity: 0.6;
+        display: none;
+    }
+
+    .post-footer .padding-5 {
+        padding: 0 1rem 1rem;
+    }
+}
+
+@media (min-width: 600px) {}
