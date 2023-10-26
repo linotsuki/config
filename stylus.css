@@ -118,4 +118,20 @@
     }
 }
 
-@media (min-width: 600px) {}
+@media (max-width: 600px) {
+    .post-content {
+        padding-left: 0px;
+    }
+    
+    .padding-10 {
+        padding: 11px;
+    }
+    
+    .post-info-box {
+        display: flex;
+    }
+    
+    .post-info-text {
+        padding-left: 8px;
+    }
+}
