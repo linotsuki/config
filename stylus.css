@@ -129,6 +129,8 @@
     
     .post-info-box {
         display: flex;
+        width: 100%;
+        text-align: left;
     }
     
     .post-info-text {
